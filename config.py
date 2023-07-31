@@ -1,3 +1,3 @@
-comunity_token = ''
-acces_token = ''
-db_url_object = "postgresql://user_name:password@localhost:5432/student_diplom"
+comunity_token = 'vk1.a.2y4XbhdJvRSod8Xo4621L4rq19eGYoUCpJu65ZDte4XZ_fIfk8uyDI34xmuWm93TQozRhD-BsEZOkka3mM4zuUWaX4D707IagpPaQmgSz_zBhaEC2zE2YWrKtmkoAH0jICfFUV_H1lEgCD-xf80KX_Zdf35SKTJOcqWQXIfff0j8E9KQqFhtWwUFn21e8jhjHB6FVMWBbfvphM1msSvrBw'
+acces_token = 'vk1.a.RdRr3_Fo_fBGDaDrbQ4rZw0kX1m_ITJv4QCNinJiYGinm8m38v91OqXuDOY5OPQ5kiE2zm_JIDT8HDbpcJuQvWUDD7Ca-dWxgDl_6OkpVFSXrxiqpE1grU3nnWYmWyKCa5mrdHggx-RjK4mkbcrrs8Fu2zrPPyPCLoR_i9nKJgxVOlVA3zMLgCB9GCT0izdnCV37wNP1qRK2afAoEHvaiw'
+db_url_object = "postgresql://postgres:Gibrtewsgf86@localhost:5432/Diplom_new"

@@ -50,12 +50,10 @@ class BotInterface():
             return self.new_bdate_toyear(event.text)
 
     def event_handler(self):
-
+    
         for event in self.longpoll.listen():
             if event.type == VkEventType.MESSAGE_NEW and event.to_me:
-                command = event.text.lower()
-
-                if command == 'привет':
+                if event.text.lower() == 'привет':                    
                     self.params = self.api.get_profile_info(event.user_id)
                     self.message_send(event.user_id, f'Здравствуй, {self.params["name"]}')
 
@@ -67,7 +65,7 @@ class BotInterface():
 
                     self.message_send(event.user_id, 'Регистрация прошла успешно')
 
-                elif command == 'поиск':
+                elif event.text.lower() == 'поиск':
                     users = []
                     while True:
                         if users:
