@@ -1,4 +1,4 @@
-from datetime import datetime 
+import datetime
 
 import vk_api
 
@@ -12,7 +12,7 @@ class VkTools():
 
     def _bdate_toyear(self, bdate):
         user_year = bdate.split('.')[2]
-        now = datetime.now().year
+        now = datetime.datetime.now().year
         return now - int(user_year)
 
     def get_profile_info(self, user_id):
